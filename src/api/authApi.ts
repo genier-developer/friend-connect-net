@@ -35,8 +35,6 @@ export type LoginResponseData = {
     login: string
     captcha?: string | null
 }
-
-
 export enum ResultCodeForCaptcha {
     CAPTCHA = 10
 }
