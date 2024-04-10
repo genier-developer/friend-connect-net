@@ -33,4 +33,4 @@ Clone the project repository to your computer.
 Navigate to the project's root folder.
 Install dependencies by running the command `yarn install`.
 Start the application with the command `yarn start`.
-Open a web browser and visit http://localhost:3000 to use the Friend Connect.
+Open a web browser and visit http://localhost:3000 to use the Friend Connect Net.
