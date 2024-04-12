@@ -13,6 +13,10 @@
 .logo {
     width: 100px;
 }
+.friend_logo {
+    width: 52px;
+    margin-right: 20px;
+}
 
 .loginInfo {
     display: flex;

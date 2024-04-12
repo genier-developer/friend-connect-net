@@ -5,6 +5,7 @@ import { useAppDispatch } from 'redux/store'
 import { logout } from 'redux/authReducer'
 import userPhoto from 'assets/img/user.png'
 import logo from 'assets/img/logo.svg'
+import friend from 'assets/img/friend_logo.svg'
 import { Button, Typography } from 'components/common'
 import { avatarSelector, isAuthSelector, loginSelector } from 'pages/loginPage/model'
 import s from './Header.module.css'
@@ -29,29 +30,34 @@ export const AppHeader = () => {
 
 
     return (
-        <header className={s.headerBlock}>
-            <NavLink to={'/'}>
-                <img className={s.logo} src={logo} alt={'logo'} />
-            </NavLink>
-            {isAuth && (
-                <div className={s.loginInfo}>
-                    <Typography variant={'body1'} className={s.login}>{login}</Typography>
-                    <img alt={login || ''}
-                         className={s.avatar}
-                         src={avatar || userPhoto}
-                    />
-                    <Button callback={logoutHandler}>
-                        <Typography variant={'body2'}>LOGOUT</Typography>
-                    </Button>
-                </div>
-            )}
-            {!isAuth && (
-                <Button className={s.button}>
-                    <NavLink to={'/login'} className={s.link}>
-                        <Typography variant={'body2'}>LOGIN</Typography>
-                    </NavLink>
+      <header className={s.headerBlock}>
+          <div>
+              <img className={s.friend_logo} src={friend} alt={"friend_logo"} />
+              <NavLink to={"/"}>
+                  <img className={s.logo} src={logo} alt={"logo"} />
+              </NavLink>
+          </div>
+
+
+          {isAuth && (
+            <div className={s.loginInfo}>
+                <Typography variant={"body1"} className={s.login}>{login}</Typography>
+                <img alt={login || ''}
+                     className={s.avatar}
+                     src={avatar || userPhoto}
+                />
+                <Button callback={logoutHandler}>
+                    <Typography variant={'body2'}>LOGOUT</Typography>
                 </Button>
-            )}
-        </header>
+            </div>
+          )}
+          {!isAuth && (
+            <Button className={s.button}>
+                <NavLink to={'/login'} className={s.link}>
+                    <Typography variant={'body2'}>LOGIN</Typography>
+                </NavLink>
+            </Button>
+          )}
+      </header>
     )
 }
