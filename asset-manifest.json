@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/friend-connect-net/static/css/main.9776fc40.css",
-    "main.js": "/friend-connect-net/static/js/main.9a9da459.js",
+    "main.css": "/friend-connect-net/static/css/main.6ae13f30.css",
+    "main.js": "/friend-connect-net/static/js/main.6a43d3d9.js",
     "static/media/source-sans-pro-latin-ext-400-normal.woff": "/friend-connect-net/static/media/source-sans-pro-latin-ext-400-normal.185cedfb4e64a9a8801a.woff",
     "static/media/source-sans-pro-latin-ext-700-normal.woff": "/friend-connect-net/static/media/source-sans-pro-latin-ext-700-normal.a72613fd5e96ed9e41cd.woff",
     "static/media/source-sans-pro-latin-ext-600-normal.woff": "/friend-connect-net/static/media/source-sans-pro-latin-ext-600-normal.7388c38c78f7a7897242.woff",
@@ -46,12 +46,13 @@
     "static/media/source-sans-pro-cyrillic-ext-400-normal.woff2": "/friend-connect-net/static/media/source-sans-pro-cyrillic-ext-400-normal.de95c5209ef26bf69ccf.woff2",
     "static/media/source-sans-pro-cyrillic-ext-600-normal.woff2": "/friend-connect-net/static/media/source-sans-pro-cyrillic-ext-600-normal.29a55ddb4816749dfc22.woff2",
     "static/media/source-sans-pro-cyrillic-ext-700-normal.woff2": "/friend-connect-net/static/media/source-sans-pro-cyrillic-ext-700-normal.88f4c479ac07fe28684c.woff2",
+    "static/media/friend_logo.svg": "/friend-connect-net/static/media/friend_logo.e297646b5238fe24912ef9e7da9d89be.svg",
     "index.html": "/friend-connect-net/index.html",
-    "main.9776fc40.css.map": "/friend-connect-net/static/css/main.9776fc40.css.map",
-    "main.9a9da459.js.map": "/friend-connect-net/static/js/main.9a9da459.js.map"
+    "main.6ae13f30.css.map": "/friend-connect-net/static/css/main.6ae13f30.css.map",
+    "main.6a43d3d9.js.map": "/friend-connect-net/static/js/main.6a43d3d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9776fc40.css",
-    "static/js/main.9a9da459.js"
+    "static/css/main.6ae13f30.css",
+    "static/js/main.6a43d3d9.js"
   ]
 }
