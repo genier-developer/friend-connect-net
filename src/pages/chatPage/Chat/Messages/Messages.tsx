@@ -24,7 +24,7 @@ export const Messages = () => {
         if (isAutoScroll) {
             messagesAnchorRef.current?.scrollIntoView({ behavior: 'smooth' })
         }
-    }, [messages])
+    }, [messages, isAutoScroll])
 
     return (
         <div className={s.messagesBlock} onScroll={scrollHandler}>

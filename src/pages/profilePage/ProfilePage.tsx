@@ -31,7 +31,7 @@ export const ProfilePage = () => {
 
     useEffect(() => {
         refreshProfile().then()
-    }, [userId])
+    }, [userId, refreshProfile])
 
     let showFriends = id && meId && (String(id) === meId)
 

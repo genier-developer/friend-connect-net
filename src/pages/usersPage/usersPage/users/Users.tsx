@@ -45,6 +45,7 @@ export const Users = () => {
             actualFilter = { ...actualFilter, friend: friend === 'null' ? null : friend === 'true' }
         }
         dispatch(getUsersTC(actualPage, pageSize, actualFilter))
+        // eslint-disable-next-line
     }, [])
 
     useEffect(() => {
@@ -52,6 +53,7 @@ export const Users = () => {
             pathname: '/users',
             search: `?term=${filter?.term}&friend=${filter?.friend}&page=${currentPage}`
         })
+        // eslint-disable-next-line
     }, [filter, currentPage])
 
     return (

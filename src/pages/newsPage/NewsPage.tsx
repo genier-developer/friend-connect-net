@@ -46,14 +46,14 @@ export const NewsPage = () => {
             actualFilter = { ...actualFilter, search: filter.search }
         }
         dispatch(getNews(currentPage, pageSize, actualFilter))
-    }, [])
+    }, [currentPage, pageSize,dispatch, filter, q])
 
     useEffect(() => {
         navigate({
             pathname: '/news',
             search: `?country=${filter?.country}&q=${filter?.search}&category=${filter?.category}`
         })
-    }, [filter?.country, filter?.category, filter?.search])
+    }, [filter?.country, filter?.category, filter?.search, navigate])
 
 
     return (

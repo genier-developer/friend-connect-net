@@ -14,7 +14,7 @@ export const MyFriends = () => {
 
     useEffect(() => {
         dispatch(getUsersTC(1, 100, filter))
-    }, [])
+    }, [dispatch, filter])
 
     return (
         <div className={s.wrapper}>

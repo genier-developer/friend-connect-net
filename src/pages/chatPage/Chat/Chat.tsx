@@ -14,7 +14,7 @@ export const Chat = () => {
         return () => {
             dispatch(stopMessagesListening())
         }
-    }, [])
+    }, [dispatch])
 
     return (
         <>
