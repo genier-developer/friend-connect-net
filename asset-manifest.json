@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/friend-connect-net/static/css/main.c8605bdb.css",
-    "main.js": "/friend-connect-net/static/js/main.25b36110.js",
+    "main.js": "/friend-connect-net/static/js/main.8ab9870a.js",
     "static/media/source-sans-pro-latin-ext-400-normal.woff": "/friend-connect-net/static/media/source-sans-pro-latin-ext-400-normal.185cedfb4e64a9a8801a.woff",
     "static/media/source-sans-pro-latin-ext-700-normal.woff": "/friend-connect-net/static/media/source-sans-pro-latin-ext-700-normal.a72613fd5e96ed9e41cd.woff",
     "static/media/source-sans-pro-latin-ext-600-normal.woff": "/friend-connect-net/static/media/source-sans-pro-latin-ext-600-normal.7388c38c78f7a7897242.woff",
@@ -49,10 +49,10 @@
     "static/media/friend_logo.svg": "/friend-connect-net/static/media/friend_logo.e297646b5238fe24912ef9e7da9d89be.svg",
     "index.html": "/friend-connect-net/index.html",
     "main.c8605bdb.css.map": "/friend-connect-net/static/css/main.c8605bdb.css.map",
-    "main.25b36110.js.map": "/friend-connect-net/static/js/main.25b36110.js.map"
+    "main.8ab9870a.js.map": "/friend-connect-net/static/js/main.8ab9870a.js.map"
   },
   "entrypoints": [
     "static/css/main.c8605bdb.css",
-    "static/js/main.25b36110.js"
+    "static/js/main.8ab9870a.js"
   ]
 }
