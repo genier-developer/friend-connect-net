@@ -1,7 +1,7 @@
 import { AddMessageChat, Messages } from 'pages/chatPage'
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux'
-import { startMessagesListening, stopMessagesListening } from 'redux/chat.reducer'
+import { startMessagesListening, stopMessagesListening } from 'redux/chatReducer'
 import { AppRootState, useAppDispatch } from 'redux/store'
 
 export const Chat = () => {

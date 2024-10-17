@@ -2,7 +2,7 @@ import { Message } from 'pages/chatPage'
 import { useSelector } from 'react-redux'
 import { AppRootState } from 'redux/store'
 import React, { useEffect, useRef, useState } from 'react'
-import { ChatMessage } from 'redux/chat.reducer'
+import { ChatMessage } from 'redux/chatReducer'
 import s from './Messages.module.css'
 
 export const Messages = () => {

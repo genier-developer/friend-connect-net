@@ -1,4 +1,4 @@
-import { ChatMessageApi } from 'redux/chat.reducer'
+import { ChatMessageApi } from 'redux/chatReducer'
 import { memo } from 'react'
 import { Typography } from 'components/common'
 import s from './Message.module.css'
