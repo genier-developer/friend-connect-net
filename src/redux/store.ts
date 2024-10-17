@@ -5,7 +5,7 @@ import { authReducer } from './authReducer'
 import thunk, { ThunkAction, ThunkDispatch } from 'redux-thunk'
 import { reducer as formReducer } from 'redux-form'
 import { appReducer } from './appReducer'
-import { chatReducer } from 'redux/chat.reducer'
+import { chatReducer } from 'redux/chatReducer'
 import { useDispatch } from 'react-redux'
 import { newsReducer } from 'redux/newsReducer'
 
