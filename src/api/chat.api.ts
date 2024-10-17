@@ -1,4 +1,4 @@
-import { ChatMessageApi, Status } from 'redux/chat.reducer'
+import { ChatMessageApi, Status } from 'redux/chatReducer'
 
 const subscribers = {
     'messages-received': [] as MessagesReceivedSubscriber[],
