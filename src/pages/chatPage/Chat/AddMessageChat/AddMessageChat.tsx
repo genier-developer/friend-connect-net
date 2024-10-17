@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useSelector } from 'react-redux'
-import { sendMessage } from 'redux/chat.reducer'
+import { sendMessage } from 'redux/chatReducer'
 import { AppRootState, useAppDispatch } from 'redux/store'
 import { Button, Typography } from 'components/common'
 import s from './AddMessageChat.module.css'
