@@ -1,27 +1,14 @@
-import { Typography } from 'components/common'
-import s from './MyFriends.module.css'
-import { useSelector } from 'react-redux'
-import { usersSelector } from 'pages/usersPage'
-import { useEffect } from 'react'
-import { getUsersTC } from 'redux/usersReducer'
-import { useAppDispatch } from 'redux/store'
-import { Friend } from 'pages/profilePage/myFriends/friend/Friend'
+import { useEffect, useMemo } from 'react'
 
-export const MyFriends = () => {
-    const friends = useSelector(usersSelector)
-    const filter = { term: '', friend: true }
-    const dispatch = useAppDispatch()
+export const MyFriends = ({ isActive }: { isActive: boolean }) => {
+    const filter = useMemo(() => ({
+        isFriend: true,
+        isActive,
+    }), [isActive])
 
     useEffect(() => {
-        dispatch(getUsersTC(1, 100, filter))
-    }, [dispatch, filter])
+        console.log(filter)
+    }, [filter])
 
-    return (
-        <div className={s.wrapper}>
-            <Typography variant={'h3'}> My friends</Typography>
-            <div className={s.friendsWrapper}>
-                {friends.map(friend => <Friend key={friend.id} friend={friend} />)}
-            </div>
-        </div>
-    )
+    return <div>My Friends</div>
 }
